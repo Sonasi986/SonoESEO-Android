@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:text="@string/home_visitor_name"
+            android:textColor="@color/darkGray"
+            android:textSize="40sp" />
+
+        <RelativeLayout
+            android:id="@+id/privateAccessContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:layout_marginTop="40dp">
+
+            <TextView
+                android:id="@+id/privateAccess"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/home_visitor_access"
+                android:textColor="@color/darkGray"
+                android:textSize="18sp" />
+
+            <View
+                android:id="@+id/lineLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="1.5sp"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_toLeftOf="@id/privateAccess"
+                android:background="@color/darkGray" />
+
+            <View
+                android:id="@+id/lineRight"
+                android:layout_width="wrap_content"
+                android:layout_height="1.5sp"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="20dp"
+
+                android:layout_marginStart="20dp"
+                android:layout_toRightOf="@id/privateAccess"
+                android:background="@color/darkGray" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/privateAccessContent"
+            android:layout_marginEnd="120dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="35dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/logo_black" />
+
+    </RelativeLayout>
+
+</ScrollView>

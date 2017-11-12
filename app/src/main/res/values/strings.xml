@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">Sono ESEO</string>
+
+    <string name="home_visitor_name">Sono ESEO</string>
+    <string name="home_visitor_access">Accès Privé</string>
+
+    <string name="fragment_news">Actualités</string>
+    <string name="fragment_services">Prestations</string>
+    <string name="fragment_calendar">Calendrier</string>
+    <string name="fragment_activities">Activités</string>
+    <string name="fragment_settings">Paramètres</string>
+    <string name="category_user">Utilisateur</string>
+    <string name="fragment_directory">Annuaire</string>
+    <string name="fragment_user">Mon profil</string>
+
+    <string name="btn_manage">Accès gestion</string>
+    <string name="btn_public">Accès public</string>
+
+    <string name="connect">Se connecter</string>
+    <string name="username">Nom d\'utilisateur</string>
+    <string name="password">Mot de passe</string>
+    <string name="legal">En vous connectant vous acceptez la charte d\'utilisation de
+        Sylapse ainsi que les conditions générales d\'utilisation.</string>
+    <string name="connection">Connexion</string>
+    <string name="forgot">Mot de passe oublié ?</string>
+
+    <string name="name">Nom d\'utilisateur :</string>
+    <string name="phone">Téléphone :</string>
+    <string name="team">Mon équipe :</string>
+    <string name="disconnect">Déconnexion</string>
+
+    <string name="search">Rechercher....</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="empty_login">Veuillez saisir un login et un mot de passe.</string>
+    <string name="not_connected">Vous n\'êtes pas connecté à internet.</string>
+
+    <string name="dialog_connect_title">Veuillez patienter...</string>
+    <string name="dialog_connect_content">Connexion au serveur SonoESEO</string>
+    <string name="dialog_connect_cancel">Annuler</string>
+
+    <string name="error_mdp_title">Mauvais identifiants</string>
+    <string name="error_mdp">Erreur lors de l\'identification</string>
+    <string name="error">Une erreur est survenue.</string>
+
+    <string name="close">Fermer</string>
+
+    <string name="unavailable">Indisponible</string>
+    <string name="available">S\'inscrire</string>
+
+    <string name="sort">Trier</string>
+    <string name="ascendingDates">Dates croissantes</string>
+    <string name="categories">Catégories</string>
+    <string name="validate">Valider</string>
+
+    <string name="addContact">Ajouter à mes contacts</string>
+    <string name="messageContact">Envoyer un message</string>
+    <string name="callContact">Appeler</string>
+
+    <string name="damn">Damn.</string>
+
+    <string name="tabInformations">Informations</string>
+    <string name="tabMaterial">Matériel</string>
+
+    <string name="supervisor">Responsable :</string>
+
+    <string name="gps">GPS :</string>
+    <string name="startGPS">Lancer le GPS</string>
+
+    <string name="client">Client :</string>
+    <string name="price">Prix :</string>
+    <string name="guarantee">Caution :</string>
+    <string name="start">Départ :</string>
+    <string name="back">Date de retour : </string>
+    <string name="contents">Commentaire :</string>
+    <string name="place">Lieu :</string>
+    <string name="room">Salle :</string>
+
+    <string name="alreadyUnavailable">Vous êtes déjà marqué comme indisponible pour cette prestation.</string>
+    <string name="alreadyAvailable">Vous êtes déjà inscrit ou validé à cette prestation.</string>
+
+
+    <string name="no_place">Cette prestation n\'a pas renseigné son adresse.</string>
+
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="sonoeseo.com">Site sonoeseo.com</string>
+    <string name="sylapse">Sylapse</string>
+    <string name="contact">Contact</string>
+    <string name="fastAccess">Accès Rapide</string>
+    <string name="about">À propos</string>
+    <string name="legalNotice">Mentions légales</string>
+
+    <string name="leasing">Location</string>
+    <string name="meeting">Réunion</string>
+    <string name="service">Prestation</string>
+
+    <string name="emptyField">Non renseigné</string>
+    
+    <string name="noResults">Aucun résultat</string>
+    <string name="result">Résultat</string>
+    <string name="results">Résultats</string>
+</resources>

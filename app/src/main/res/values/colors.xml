@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#132365</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="headerColor">#242323</color>
+
+    <color name="white">#FFFFFF</color>
+
+    <color name="darkGray">#363636</color>
+    <color name="darkGrayContent">#555555</color>
+
+    <color name="btnBlue">#0081FF</color>
+
+    <color name="green">#4fae54</color>
+    <color name="blue">#0081FF</color>
+    <color name="red">#ee3233</color>
+
+    <color name="bgSection">#EDECF2</color>
+    <color name="recyclerViewSeparator">#C8C8C8</color>
+
+    <color name="borderDate">#15A6E1</color>
+    <color name="bgDate">#DFF4FB</color>
+
+    <color name="bgNotifications">#151515</color>
+</resources>

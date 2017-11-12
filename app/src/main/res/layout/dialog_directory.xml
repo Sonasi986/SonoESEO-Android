@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardCornerRadius="5dp"
+    app:cardPreventCornerOverlap="false">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_service">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_toStartOf="@id/close"
+                android:gravity="center"
+                android:textSize="20sp" />
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/avatarContent"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@id/title"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@null"
+                android:elevation="10dp"
+                android:innerRadius="0dp"
+                android:shape="ring"
+                app:cardCornerRadius="50dp">
+
+                <ImageView
+                    android:id="@+id/avatar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop" />
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:id="@+id/txtPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/avatarContent"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textSize="20dp" />
+
+            <RelativeLayout
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtPhone"
+                android:layout_marginTop="20dp">
+
+                <RelativeLayout
+                    android:id="@+id/addContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/imgAdd"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_add"
+                        android:layout_centerVertical="true"/>
+
+                    <Button
+                        android:id="@+id/btnAdd"
+                        android:layout_toEndOf="@id/imgAdd"
+                        android:layout_marginStart="30dp"
+                        android:text="@string/addContact"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@null"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/callContent"
+                    android:layout_below="@id/addContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/imgCall"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/ic_call"/>
+
+                    <Button
+                        android:id="@+id/btnCall"
+                        android:layout_toEndOf="@id/imgCall"
+                        android:layout_marginStart="15dp"
+                        android:text="@string/callContact"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@null"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/msgContent"
+                    android:layout_below="@id/callContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/imgMsg"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/ic_msg"/>
+
+                    <Button
+                        android:id="@+id/btnMsg"
+                        android:layout_toEndOf="@id/imgMsg"
+                        android:text="@string/messageContact"
+                        android:layout_marginStart="30dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@null"/>
+                </RelativeLayout>
+
+                <Button
+                    android:id="@+id/btnClose"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/msgContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/close"
+                    android:background="@null"/>
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</android.support.v7.widget.CardView>

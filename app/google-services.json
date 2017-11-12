@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "891840398664",
+    "firebase_url": "https://sono-eseo-android.firebaseio.com",
+    "project_id": "sono-eseo-android",
+    "storage_bucket": "sono-eseo-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:891840398664:android:9709c9f93dc78546",
+        "android_client_info": {
+          "package_name": "fr.sonoeseo.sonoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "891840398664-n00auf3rv5s05806v2n9a5tt6sejtmk6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzw7KE80O4zf2ak-6CT437OCjD6175YUk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
